@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* shared style  */
+body{
+    font-family:Inter ;
+    background-color: rgb(8, 7, 7);
+}
+/* nav-bar style start */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.header-title{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 2rem;
+}
+.nav-content li a{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+.nav-option ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+span{
+ background-color:rgb(230, 83, 60) ;
+ border-radius:12px; 
+ padding: 5px 10px; 
+}
+.nav-bar{
+    color: aliceblue;
+    list-style: none;
+    display: none;
+     
+}
+
+
+/* nav-bar style end */
+/* banner-style start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+    
+}
+.banner-title{
+color: rgb(255, 255, 255); 
+font-size: 4.3rem; 
+font-weight: 700;  
+}
+.font-change{
+    font-family: Miama;
+    color:rgb(255, 255, 255);
+    font-size: 4.3rem;
+    font-weight: 700;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(230, 83, 60);
+    padding: 13px 30px;
+    border: none;
+    border-radius: 8px;
+}
+.tranparent-button{
+    box-sizing: border-box;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 13px 30px;
+    border-radius: 8px;
+    background: none;
+
+}
+.banner-img img{
+    width:100%;
+}
+.banner-img{
+    position: relative;
+   
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0 ;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+}
+.video-content img{
+width: 20%;
+border-radius:50%;
+}
+.big-text-title,.video-title{
+   color: rgb(255, 255, 255); 
+   font-size: 2rem;
+   font-weight: 800;
+
+}
+.big-text-para,.video-para{
+    color:rgba(239, 237, 232, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.big-text{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    backdrop-filter: blur(13px);
+    border-radius: 8px;
+    margin-top: 10rem;
+   margin-left: 6rem;
+    
+}
+.video-tutorial img{
+width: 50%;
+
+}
+.video-tutorial{
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 40px;
+    backdrop-filter: blur(13px);
+    border-radius: 8px;
+    margin-bottom: 8rem;
+    margin-right: 16rem;
+    text-align: left;
+    
+    
+    
+}
+/* banner-style end */
+/* change habit part start */
+.change-habit{
+    margin-top: 70px;
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+}
+.habit-para{
+    color: rgba(239, 237, 232, 0.65);
+    text-align: center;
+    margin-top: 13px;
+    font-size: .8rem;
+}
+.habit-container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+.habit-content img{
+    width:80%;
+    border-radius: 50%;
+
+
+}
+.habit-sub-title{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.habit-sub-para{
+    color:rgba(239, 237, 232, 0.65);
+    text-align: center;
+    font-size: .8rem;
+}
+/* change habit part end */
+/* extra run start */
+.extra-run{
+    
+}
+.extra-run-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px 30px;
+    gap: 40px;
+
+
+}
+.run-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.run-para{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.run-img img{
+    width:100%;
+    border-radius: 13px;
+}
+/* extra run end */
+/* bmi calculate start */
+.bmi-calculate{
+    margin-top: 80px;
+}
+
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-size: 2.6rem;
+    text-align: center;
+}
+.bmi-para{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .7rem;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+thead td{
+    color: rgba(255, 255, 255);
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 25px;
+}
+tbody td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(239, 237, 232, 0.65);
+    padding: 10px 25px;
+    font-size: .8rem;
+}
+.bmi-content,caption{
+    color: rgb(255, 255, 255);
+    font-size:1.3rem ;
+    font-weight: 600;
+}
+
+.bmi-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background: rgb(34, 34, 34); 
+    padding: 40px;
+    margin-top: 40px;
+}   
+.input-area{
+    
+        display: grid;
+        grid-template-columns: repeat(2 ,2fr) ;
+        grid-gap:15px;  
+    
+}
+.input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+.input-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.input-para{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.height,.weight,.age,.gender{
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+   border: none; 
+   color: rgba(239, 237, 232, 0.65);
+    
+}
+.activity{
+    width: 207%;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+   border: none; 
+   color: rgba(239, 237, 232, 0.65);
+    
+}
+
+ /* bmi calculate end */
+ /* meet our team start */
+ .meet-our-team{
+    margin-top: 70px;
+ }
+ .meet-our-team h3{
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    font-weight: 800;
+    text-align: center;
+
+ }
+ .meet-our-team p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    text-align: center;
+
+ }
+ .our-team-content{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 15px;
+   
+ }
+ .our-team-container{
+    width: 80%;
+    background: rgb(34, 34, 34); 
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 12px;
+ }
+ .mamber-items,img{
+    width:100%;
+    height: 100%;
+    border-radius: 12px;
+    filter: brightness(70%);
+    
+ }
+ .img-items{
+    position: relative;
+ }
+ .mamber-name{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    color: rgb(255, 255, 255);
+ }
+ .profession{
+    position: absolute;
+    top: 86%;
+    left: 7%;
+    color: rgba(239, 237, 232, 0.65);
+ }
+ /* meet our team end */

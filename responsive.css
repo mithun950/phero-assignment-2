@@ -1,0 +1,69 @@
+@media screen  and (max-width:576px){
+    /* nav start */
+    .nav-bar{
+        display: block;
+    }
+    .nav-option ul{
+        display:none;
+    }
+    
+    /* nav end */
+    /* banner res start */
+    .banner-container{
+        flex-direction: column;
+        
+    }
+    .banner-img{
+        align-items: center;
+    }
+    .tranparent-button{
+        margin-left: 15px;
+    }
+
+    /* banner res end */
+    /* habit section start */
+    .habit-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .habit-content img{
+        margin-left:30px;
+        
+    }
+    .habit-title{
+        font-size: 1.7rem;
+    }
+    /* habit section end */
+    /* run extra start */
+    .extra-run-container{
+        flex-direction: column;
+    }
+    .btn-primary{
+        padding: 13px 70px;
+    }
+    /* run extra end  */
+    /* bmi calculate start */
+    .bmi-container{
+        flex-direction: column;
+    }
+    .bmi-input{
+        margin-top: 40px;
+    }
+    .input-title{
+        text-align: center;
+    }
+    .input-para{
+        text-align: center;
+    }
+    .bmi-content,caption{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* bmi calculate end */
+    /* meet our team start */
+    .our-team-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* meet our team end  */
+}
