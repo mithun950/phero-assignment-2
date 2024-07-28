@@ -49,6 +49,10 @@ span{
 
 /* nav-bar style end */
 /* banner-style start */
+header{
+    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(39, 39, 39),rgb(0, 0, 0) 100%);
+    padding: 10px;
+}
 .banner-container{
     display: flex;
     justify-content: space-between;
@@ -56,13 +60,19 @@ span{
     width: 80%;
     margin: 0 auto;
     gap: 30px;
-    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(39, 39, 39),rgb(0, 0, 0) 100%);
-    padding: 10px;
+    
 }
 .banner-title{
 color: rgb(255, 255, 255); 
 font-size: 4.3rem; 
 font-weight: 700;  
+}
+.banner-description{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .font-change{
     font-family: Miama;
