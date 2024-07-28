@@ -56,7 +56,8 @@ span{
     width: 80%;
     margin: 0 auto;
     gap: 30px;
-    
+    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(39, 39, 39),rgb(0, 0, 0) 100%);
+    padding: 10px;
 }
 .banner-title{
 color: rgb(255, 255, 255); 
@@ -175,7 +176,8 @@ width: 50%;
 
 }
 .habit-content img{
-    width:80%;
+    width:100%;
+
     border-radius: 50%;
 
 
@@ -195,7 +197,7 @@ width: 50%;
 /* change habit part end */
 /* extra run start */
 .extra-run{
-    
+ 
 }
 .extra-run-container{
     display: flex;
@@ -208,6 +210,7 @@ width: 50%;
     margin-top: 80px;
     padding: 20px 30px;
     gap: 40px;
+    margin-top: 110px;  
 
 
 }
@@ -372,3 +375,108 @@ tbody td{
     color: rgba(239, 237, 232, 0.65);
  }
  /* meet our team end */
+ /* our location start */
+ .our-location{
+    margin-top: 80px;
+ }
+ .location-container{
+    display: flex;
+     width: 80%;
+     margin: 0 auto;
+     justify-content: space-around;
+     align-items: center;
+     gap: 30px;
+     background: rgb(34, 34, 34);
+     padding: 20px;
+     border-radius: 12px;
+ }
+ .map-content iframe{
+    width: 100%;
+  border-radius: 12px; 
+ }
+ .comming-soon-title{
+    color: rgb(255, 255, 255);
+    margin-top: 12px;
+ }
+ .find-location{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    
+ }
+ .comming-soon-para,a{
+      text-decoration: none;
+      color: rgba(239, 237, 232, 0.65);
+      margin-top: 16px;
+      margin-bottom: 20px;
+ }
+ hr{
+    margin-top: 20px;
+ }
+  .input-section{
+    position: relative;
+    
+ }
+ #map-bar{
+    position: absolute;
+      top: 50%; 
+    left: 5%;
+    color: red;
+ }
+ input{
+    padding: 15px 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none; 
+    
+ }
+ /* our location end */
+ /* footer area start */
+ footer{
+
+    color: white;
+    margin-top: 70px;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+ }
+ .footer-container{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: 0 auto;
+   gap: 20px;
+ }
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+   color: rgba(255, 255, 255, 0.5);
+}
+hr{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+.footer-title{
+color: rgb(230, 83, 60);
+font-size: 3rem;
+font-weight: 800;
+}
+.fitness-para{
+color: rgba(239, 237, 232, 0.65);
+font-size: .8rem;
+margin-top: 13px;
+}
+.footer-sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+}
+.list-item li{
+    list-style: none;
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    margin-top: 13px;
+}
+ /* foter area end */

@@ -17,7 +17,9 @@
         align-items: center;
     }
     .tranparent-button{
-        margin-left: 15px;
+        margin-top: 20px;
+        padding: 13px 70px;
+        
     }
 
     /* banner res end */
@@ -26,8 +28,8 @@
         flex-direction: column;
         align-items: center;
     }
-    .habit-content img{
-        margin-left:30px;
+    
+       
         
     }
     .habit-title{
@@ -66,4 +68,15 @@
         grid-template-columns: repeat(1,1fr);
     }
     /* meet our team end  */
+    /* location section start */
+    .location-container{
+        flex-direction: column;
+    }
+    /* location section end */
+    /* footer area start  */
+    .footer-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    /* footer area end */
 }
