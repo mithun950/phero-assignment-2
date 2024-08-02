@@ -290,7 +290,7 @@ tbody td{
     
         display: grid;
         grid-template-columns: repeat(2 ,2fr) ;
-        grid-gap:15px;  
+        grid-gap:10px;  
     
 }
 .input, select {
@@ -311,21 +311,30 @@ tbody td{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.height,.weight,.age,.gender{
+.height,.weight,.age{
     padding: 10px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-   border: none; 
-   color: rgba(239, 237, 232, 0.65);
+    border: none; 
+    color: rgba(239, 237, 232, 0.65);
     
 }
+.gender{
+    padding:10px; 
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none; 
+    color: rgba(239, 237, 232, 0.65);
+    margin-top: 19px;
+}
+
 .activity{
     width: 207%;
     padding: 10px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-   border: none; 
-   color: rgba(239, 237, 232, 0.65);
+    border: none; 
+    color: rgba(239, 237, 232, 0.65);
     
 }
 
